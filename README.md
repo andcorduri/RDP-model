@@ -8,7 +8,7 @@ Authors: Seyed Mahmoud Arzideh, Andrés Córdoba, Jeffrey G. Ethier, Jay D. Schi
 
 Accepted for publication in the Journal of Rheology on March 2024
 
-The Notebooks solve the Rolie-Double-Poly (RDP) model [Boudara et. al., J. Rheol. 63 (1), 71-91] and calculates the entropy generation rate using the method of Schieber and Córdoba [Phys. Fluids 33 (8)].
+The Notebooks solve the Rolie-Double-Poly (RDP) model [Boudara et. al., J. Rheol. 63 (1), 71-91] and calculate the entropy generation rate using the method of Schieber and Córdoba [Phys. Fluids 33 (8)].
 
 Copyright (c) 2024 Andrés Córdoba
 
