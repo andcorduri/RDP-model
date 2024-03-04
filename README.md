@@ -1,6 +1,6 @@
 # RDP-model
 
-These Mathematica Notebooks are part of the Supporting Information for:
+These Mathematica Notebooks were used to perform calculations for the paper:
 
 "Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions"
 
