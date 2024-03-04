@@ -1,7 +1,7 @@
 (* ::Package:: *)
 
 (* ::Title:: *)
-(*This Notebook is part of the Supporting Information for:*)
+(*This script was used to perform calculations for the paper:*)
 (*"Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions"*)
 (*Seyed Mahmoud Arzideh, Andr\[EAcute]s C\[OAcute]rdoba, Jeffrey G. Ethier, Jay D. Schieber, and David C. Venerus*)
 
