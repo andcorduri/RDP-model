@@ -1,17 +1,17 @@
 (* ::Package:: *)
 
-(* ::Title::Initialization:: *)
+(* ::Title:: *)
 (*This Notebook is part of the Supporting Information for:*)
 (*"Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions"*)
 (*Seyed Mahmoud Arzideh, Andr\[EAcute]s C\[OAcute]rdoba, Jeffrey G. Ethier, Jay D. Schieber, and David C. Venerus*)
 
 
-(* ::Subtitle::Initialization:: *)
-(*Accepted for publication in the Journal of Rheology on March 2024*)
+(* ::Subtitle:: *)
+(*The paper was submitted for publication in the Journal of Rheology on 21-Dec-2023.*)
 (*email: andcorduri@gmail.com (Andr\[EAcute]s C\[OAcute]rdoba)*)
 
 
-(* ::Section::Initialization:: *)
+(* ::Section:: *)
 (*Definition of Functions*)
 
 
@@ -91,7 +91,7 @@ data3={#[[1]],#[[2]]}&/@data2;err2=#[[3]]&/@data2;
 {{color,MapThread[Line[{Log[{#1[[1]],(#1[[2]]-#2)}],Log[{#1[[1]],(#1[[2]]+#2)}]}]&,{data3,err2}]},{color,MapThread[Line[{{Log[#1[[1]]]-del,Log[(#1[[2]]-#2)]},{Log[#1[[1]]]+del,Log[(#1[[2]]-#2)]}}]&,{data3,err2}]},{color,MapThread[Line[{{Log[#1[[1]]]-del,Log[(#1[[2]]+ #2)]},{Log[#1[[1]]]+del,Log[(#1[[2]]+#2)]}}]&,{data3,err2}]}}]
 
 
-(* ::Section::Initialization:: *)
+(* ::Section:: *)
 (*Sample calculations for the MW = 130 kDa and PDI = 1.14 system*)
 
 
@@ -128,7 +128,7 @@ GN0In=308.165;(*The plateau modulus in kPa.*)
 \[Lambda]maxIn=2(*Maximum stretch ratio*);
 
 
-(* ::Subsection::Initialization:: *)
+(* ::Subsection:: *)
 (*Inception of biaxial elongation*)
 
 
@@ -161,7 +161,7 @@ InsetP1=ListLogLinearPlot[{sol\[Epsilon]dp01[[2]],sol\[Epsilon]dp03[[2]]},PlotRa
 ShowLegend[ListLogLinearPlot[{sol\[Epsilon]dp01[[2]],sol\[Epsilon]dp03[[2]],sol\[Epsilon]dp1[[2]],sol\[Epsilon]dp3[[2]]},PlotRange->{{0.5*10^-2,4*10^2},All},Frame->True,Axes->False,BaseStyle->{FontSize->22,FontFamily->"Arial"},AspectRatio->0.7,FrameLabel->{"t, s","Entropy generation rate, J/(K s)"},ImageSize->700,Joined->True,PlotStyle->{{Blue},{Darker[Green]},{Darker[Cyan]},Magenta},Epilog->Inset[InsetP1,{Log[4*10^1],0.9}],FrameTicks->{{Automatic,Automatic},{PowerTicks[True],PowerTicks[False]}}],Legend1]
 
 
-(* ::Subsection::Initialization:: *)
+(* ::Subsection:: *)
 (*Cessation after biaxial elongation*)
 
 
@@ -188,7 +188,7 @@ InsetP1=ListLogLinearPlot[{sol\[Epsilon]dp01c[[2]],sol\[Epsilon]dp03c[[2]]},Plot
 ShowLegend[ListLogLinearPlot[{sol\[Epsilon]dp01c[[2]],sol\[Epsilon]dp03c[[2]],sol\[Epsilon]dp1c[[2]],sol\[Epsilon]dp3c[[2]]},PlotRange->{{0.5*10^-2,4*10^2},All},Frame->True,Axes->False,BaseStyle->{FontSize->22,FontFamily->"Arial"},AspectRatio->0.7,FrameLabel->{"t, s","Entropy generation rate, J/(K s)"},ImageSize->700,Joined->True,PlotStyle->{{Blue},{Darker[Green]},{Darker[Cyan]},Magenta},Epilog->Inset[InsetP1,{Log[4*10^1],0.9}],FrameTicks->{{Automatic,Automatic},{PowerTicks[True],PowerTicks[False]}}],Legend1]
 
 
-(* ::Subsection::Initialization:: *)
+(* ::Subsection:: *)
 (*Sudden reversal after biaxial elongation*)
 
 
@@ -215,7 +215,7 @@ InsetP1=ListLogLinearPlot[{sol\[Epsilon]dp01r[[2]],sol\[Epsilon]dp03r[[2]]},Plot
 ShowLegend[ListLogLinearPlot[{sol\[Epsilon]dp01r[[2]],sol\[Epsilon]dp03r[[2]],sol\[Epsilon]dp1r[[2]],sol\[Epsilon]dp3r[[2]]},PlotRange->{{0.5*10^-2,4*10^2},All},Frame->True,Axes->False,BaseStyle->{FontSize->22,FontFamily->"Arial"},AspectRatio->0.7,FrameLabel->{"t, s","Entropy generation rate, J/(K s)"},ImageSize->700,Joined->True,PlotStyle->{{Blue},{Darker[Green]},{Darker[Cyan]},Magenta},Epilog->Inset[InsetP1,{Log[4*10^1],3}],FrameTicks->{{Automatic,Automatic},{PowerTicks[True],PowerTicks[False]}}],Legend1]
 
 
-(* ::Subsection::Initialization:: *)
+(* ::Subsection:: *)
 (*Check for generally allowed values of the conformation tensor (As a function of the smallest eigenvalue of the conformation tensor)*)
 
 
