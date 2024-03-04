@@ -1,6 +1,6 @@
 # RDP-model
 
-These Mathematica Notebook are part of the Supporting Information for:
+These Mathematica Notebooks are part of the Supporting Information for:
 
 "Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions"
 
