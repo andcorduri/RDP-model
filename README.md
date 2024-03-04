@@ -8,7 +8,7 @@ Authors: Seyed Mahmoud Arzideh, Andrés Córdoba, Jeffrey G. Ethier, Jay D. Schi
 
 Accepted for publication in the Journal of Rheology on March 2024
 
-The Notebooks solve The Rolie-Double-Poly (RDP) model (Boudara et. al., J.Rheol.63 (1), 71-91)
+The Notebooks solve The Rolie-Double-Poly (RDP) model [Boudara et. al., J.Rheol.63 (1), 71-91]
 
 Copyright (c) 2024 Andrés Córdoba
 
