@@ -2,12 +2,10 @@
 
 (* ::Title:: *)
 (*This script was used to perform calculations for the paper:*)
-(*"Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions"*)
-(*Seyed Mahmoud Arzideh, Andr\[EAcute]s C\[OAcute]rdoba, Jeffrey G. Ethier, Jay D. Schieber, and David C. Venerus*)
+(*Seyed Mahmoud Arzideh, Andr\[EAcute]s C\[OAcute]rdoba, Jeffrey G. Ethier, Jay D. Schieber, David C. Venerus; Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions. J. Rheol. 1 May 2024; 68 (3): 341\[Dash]353. https://doi.org/10.1122/8.0000809.*)
 
 
 (* ::Subtitle:: *)
-(*The paper was submitted for publication in the Journal of Rheology on 21-Dec-2023.*)
 (*email: andcorduri@gmail.com (Andr\[EAcute]s C\[OAcute]rdoba)*)
 
 
