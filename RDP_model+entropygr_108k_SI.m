@@ -6,7 +6,6 @@
 
 
 (* ::Subtitle:: *)
-(*The paper was submitted for publication in the Journal of Rheology on 21-Dec-2023.*)
 (*email: andcorduri@gmail.com (Andr\[EAcute]s C\[OAcute]rdoba)*)
 
 
