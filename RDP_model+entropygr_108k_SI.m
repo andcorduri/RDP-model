@@ -2,8 +2,7 @@
 
 (* ::Title:: *)
 (*This script was used to perform calculations for the paper:*)
-(*"Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions"*)
-(*Seyed Mahmoud Arzideh, Andr\[EAcute]s C\[OAcute]rdoba, Jeffrey G. Ethier, Jay D. Schieber, and David C. Venerus*)
+(*Seyed Mahmoud Arzideh, Andr\[EAcute]s C\[OAcute]rdoba, Jeffrey G. Ethier, Jay D. Schieber, David C. Venerus; Equibiaxial elongation of entangled polyisobutylene melts: Experiments and theoretical predictions. J. Rheol. 1 May 2024; 68 (3): 341\[Dash]353. https://doi.org/10.1122/8.0000809.*)
 
 
 (* ::Subtitle:: *)
@@ -167,20 +166,20 @@ ShowLegend[ListLogLinearPlot[{sol\[Epsilon]dp01[[2]],sol\[Epsilon]dp03[[2]],sol\
 (*Cessation after biaxial elongation*)
 
 
-(* ::Input:: *)
-(*sol\[Epsilon]dp3c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,2*10^2},Last[sol\[Epsilon]dp3]];*)
+(* ::Input::Initialization:: *)
+sol\[Epsilon]dp3c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,2*10^2},Last[sol\[Epsilon]dp3]];
 
 
-(* ::Input:: *)
-(*sol\[Epsilon]dp1c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,2*10^2},Last[sol\[Epsilon]dp1]];*)
+(* ::Input::Initialization:: *)
+sol\[Epsilon]dp1c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,2*10^2},Last[sol\[Epsilon]dp1]];
 
 
-(* ::Input:: *)
-(*sol\[Epsilon]dp03c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,2*10^2},Last[sol\[Epsilon]dp03]];*)
+(* ::Input::Initialization:: *)
+sol\[Epsilon]dp03c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,2*10^2},Last[sol\[Epsilon]dp03]];
 
 
-(* ::Input:: *)
-(*sol\[Epsilon]dp01c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,5*10^2},Last[sol\[Epsilon]dp01]];*)
+(* ::Input::Initialization:: *)
+sol\[Epsilon]dp01c=RDPmodel[0,mIn,MwRDP,MeIn,\[Tau]eIn,GN0In,\[Lambda]maxIn,{10^-2,5*10^2},Last[sol\[Epsilon]dp01]];
 
 
 (* ::Input::Initialization:: *)
